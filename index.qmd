@@ -9,7 +9,7 @@ This website contains all the shared resources that support the Git training hos
 This website will be updated as needed, so bookmark it for easy access! We hope this will reduce the amount of information we will need to convey by email, but any major announcements will still be made by direct communication.
 
 :::{.callout-important}
-Please make sure to review the [Preparation](prep.qmd) page **BEFORE** the first day of the workshop! On this page you will also find the homework that will need to be done between sessions.
+Please make sure to review the [Preparation](prep.qmd) page **BEFORE** the first day of the workshop! 
 :::
 
 We hope you'll enjoy it!

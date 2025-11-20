@@ -2,3 +2,28 @@
 title: "100 Days of Version Control"
 ---
 
+By completing this training, you are automatically subscribed to the 100 Days of Version Control Challenge! 🎉 
+
+### Purpose
+The purpose of this challenge is to encourage you to create the habit of committing and pushing often, and to lose the fear of version control. It is also aimed at practicing and implementing best practices related to version control, such as descriptive commit messages, rules for branching, grouping commits per push, etc.
+
+### Outcome 
+At the end of the 100 days, you will have a history of contributions that is registered on GitHub (that you can use as a portfolio!). We hope that the multiple milestones and cellebrations, and also the record of everything that you do during these 100 days will empower you to keep the habit throughout your career.
+
+### Process
+You will work in teams of three on a shared project. You can, potentially, work on more than one project as long as you collaborate on them during the 100 days. 
+
+You will need to make contributions in the form of commits and push, PRs, or merges every day, for 100 days. 
+
+For each challenge, you or your group will need to submit your nominations using the designated form to be provided by the organization on this page at a future date.
+
+You will also have access to office hours every Monday at 10am PT to debug and ask questions, and you can chose to be mentored by one of the instructors during these hours.
+
+#### Milestones
+Every 30 days will mark a milestone, and a “newsletter” will be sent to all participants with highlights of the month, featuring achievements, anonymized bugs and solutions to these bugs, and what to expect for the next 30 days (reminder of the challenges).
+
+At the end of the 100 days + one week (March 13, 2026), there will be a big celebration with distribution of prizes.
+
+Details about online calls and graduation party will be announced here and on the monthly newsletter.
+
+
