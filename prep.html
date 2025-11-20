@@ -290,7 +290,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#before-november-24th" id="toc-before-november-24th" class="nav-link active" data-scroll-target="#before-november-24th">Before November 24th</a></li>
   <li><a href="#before-november-26th" id="toc-before-november-26th" class="nav-link" data-scroll-target="#before-november-26th">Before November 26th</a></li>
-  <li><a href="#before-november-28th" id="toc-before-november-28th" class="nav-link" data-scroll-target="#before-november-28th">Before November 28th</a></li>
+  <li><a href="#before-november-28th" id="toc-before-november-28th" class="nav-link" data-scroll-target="#before-november-28th">Before November 28th</a>
+  <ul class="collapse">
+  <li><a href="#groups" id="toc-groups" class="nav-link" data-scroll-target="#groups">Groups</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -335,6 +338,7 @@ Important
 <ul class="task-list">
 <li><label><input type="checkbox"><a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github" class="external" target="_blank">Create an account on GitHub</a>, if you still don’t have one</label></li>
 <li><label><input type="checkbox">Copy <a href="https://github.com/INN-SFU/BRS-repository_template" class="external" target="_blank">this repository template</a> and chage its name to reflect the theme of your group’s project</label></li>
+<li><label><input type="checkbox">Check who is in your <a href="#groups">group</a> and add them as contributors to the project repository</label></li>
 <li><label><input type="checkbox">Make sure you have a Compute Canada account and can login to Fir</label></li>
 <li><label><input type="checkbox"><a href="./pat_fir.html" class="external" target="_blank">Set up your personal access token on Fir</a></label></li>
 <li><label><input type="checkbox">Make sure you have git correctly configured on your computer (<a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" class="external" target="_blank">git documentation here</a>)</label></li>
@@ -346,8 +350,35 @@ Important
 </section>
 <section id="before-november-28th" class="level2">
 <h2 class="anchored" data-anchor-id="before-november-28th">Before November 28th</h2>
+<section id="groups" class="level3">
+<h3 class="anchored" data-anchor-id="groups">Groups</h3>
+<p><strong>Group 1 (PyActigraphy focus):</strong></p>
+<ul>
+<li><p>Cesar - INN</p></li>
+<li><p>Aina</p></li>
+<li><p>Stephanie</p></li>
+</ul>
+<p><strong>Group 2 (PLS focus):</strong></p>
+<ul>
+<li><p>Sarah - McIntosh</p></li>
+<li><p>Masoumeh</p></li>
+<li><p>Taha</p></li>
+</ul>
+<p><strong>Group 3 (MSE focus):</strong></p>
+<ul>
+<li><p>Maryam - INN</p></li>
+<li><p>Emad - Kent</p></li>
+<li><p>Victoria</p></li>
+</ul>
+<p><strong>Group 4 (Imaging focus):</strong></p>
+<ul>
+<li><p>Miranda - INN</p></li>
+<li><p>Cathlin</p></li>
+<li><p>Sean</p></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -436,7 +467,7 @@ Important
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/graciellehigino\.github\.io\/git_training_inn\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
