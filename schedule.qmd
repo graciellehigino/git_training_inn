@@ -1,0 +1,78 @@
+# Schedule
+
+::: {.panel-tabset}
+## Day 01
+
+### Tuesday, November 25th, 2025
+
+*The Ethos of Version Control and Project Management 101*
+
+### Pre-class work:
+
+-   [ ] You know who is in your group
+-   [ ] You have identified a project to work on together and created a repository for that
+-   [ ] You have git installed on your personal computer and are fully set up
+-   [ ] You checked if you have access to Fir
+-   [ ] You have attended a code help session on 21st or 24th if you have ran into problems setting things up
+
+| Progress | Time | Subject |
+|-----------|--------------|-------------------------------------------|
+|  | **10:00 - 10:15** | Onboarding |
+|  | **10:15 - 10:30** | Local station set up |
+|  | **10:30 - 10:50** | Version control - the idea |
+|  | **10:50 - 11:00** | Connecting your local to your remote repository |
+|  | **11:00 - 11:05** | Adding files to the stage area and removing them + .gitignore |
+|  | **11:05 - 11:15** | **Break** |
+|  | **11:15 - 11:20** | Commits |
+|  | **11:20 - 11:25** | Push |
+|  | **11:25 - 11:35** | Quick review and exercise |
+|  | **11:35 - 11:40** | Pull |
+|  | **11:40 - 11:50** | Diff and Restore |
+|  | **11:50 - 11:55** | Quiz time |
+|  | **11:55 - 12:00** | Wrap up and feedback |
+
+
+## Day 02
+
+### Wednesday, November 26th, 2025
+
+*Version control 102 and working on the cloud*
+
+### Pre-class work:
+
+-   [ ] Write the documentation for your project (README and contribution guidelines)
+-   [ ] Think about what would be the structure of your project while you work on it and what it should look like when you archive it
+
+| Progress | Time | Subject |
+|-----------|--------------|-------------------------------------------|
+|  | **15:00 - 15:10** | Onboarding |
+|  | **15:10 - 15:25** | Branches |
+|  | **15:25 - 15:40** | Pull requests |
+|  | **15:40 - 16:00** | Merging and conflicts |
+|  | **16:00 - 16:05** | **Break** |
+|  | **16:05 - 16:50** | Version control on Fir |
+|  | **16:50 - 16:55** | Quiz time |
+|  | **11:55 - 12:00** | Wrap up and feedback |
+
+
+## Day 03
+
+### Friday, November 28th, 2025
+
+*FAIR principles, 100 Days of Version Control, Version Control Parade*
+
+### Pre-class work:
+
+-   [ ] Make sure your local and remotes are in sync
+-   [ ] Think about what you will share with the cohort about your project and how your group have implemented a version control workflow
+
+| Progress | Time | Subject |
+|-----------|--------------|-------------------------------------------|
+|  | **13:00 - 13:10** | Onboarding |
+|  | **13:10 - 13:30** | Best practices and FAIR principles |
+|  | **13:30 - 14:00** | Final practice |
+|  | **14:00 - 14:30** | Version Control Parade |
+|  | **14:30 - 14:50** | 100 days of version control challenge |
+|  | **14:55 - 15:00** | Wrap up and feedback |
+
+:::

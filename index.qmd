@@ -1,0 +1,73 @@
+---
+title: "Git Training - INN"
+---
+
+## 👋 Welcome!
+
+This website contains all the shared resources that support the Git training hosted by the Institute of Neuroscience and Neurotechnology at the Simon Fraser University. Here you will find reference guides, our schedule, the 100 Days of Version Control challenge materials, and more.
+
+This website will be updated as needed, so bookmark it for easy access! We hope this will reduce the amount of information we will need to convey by email, but any major announcements will still be made by direct communication.
+
+:::{.callout-important}
+Please make sure to review the [Preparation](prep.qmd) page **BEFORE** the first day of the workshop! On this page you will also find the homework that will need to be done between sessions.
+:::
+
+We hope you'll enjoy it!
+
+If you have any questions, do not hesitate to contact [Gracielle](mailto:gracielle_higino@sfu.ca).
+
+# General information
+
+## 📍 Where
+
+INN-SCK computer lab
+
+```{=html}
+<iframe width="780" height="500" src="https://roomfinder.sfu.ca/apps/sfuroomfinder_web/?q=k9601">
+</iframe>
+```
+
+## 📅 When
+
+November 25th, from 10am to 12pm 
+
+November 26th, from 3pm to 5pm
+
+November 28th, from 1pm to 3pm
+
+
+# 🧑‍🏫 Instructors
+
+::: {.columns}
+::: {.column width="40%"}
+### Gracielle Higino  
+
+![](images/gracielle.jpg)
+:::
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+::: {.column width="40%"}
+### Justin Wang  
+
+![](images/justin.png)
+:::
+:::
+
+::: {.columns}
+::: {.column width="40%"}
+### Kelly Shen  
+
+![](images/kelly.jpg)
+
+:::
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+::: {.column width="40%"}
+### Leanne Rokos  
+
+![](images/leanne.jpg)
+:::
+
+:::

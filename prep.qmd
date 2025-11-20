@@ -1,0 +1,21 @@
+---
+title: "Pre-workshop preparation"
+---
+
+:::{.callout-important}
+Please review carefully the instructions on this page! They will insure you're all set for the workshop synchronous sessions. We will not have much time during the workshops to debug individual cases.
+:::
+
+## Before November 24th
+
+- [ ] [Create an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github){.external target="_blank"}, if you still don't have one
+- [ ] Copy [this repository template](https://github.com/INN-SFU/BRS-repository_template){.external target="_blank"} and chage its name to reflect the theme of your group's project
+- [ ] Make sure you have a Compute Canada account and can login to Fir
+- [ ] [Set up your personal access token on Fir](pat_fir.qmd){.external target="_blank"}
+- [ ] Make sure you have git correctly configured on your computer ([git documentation here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){.external target="_blank"})
+- [ ] Fill out this pre-workshop survey by **November 21st**: [https://tally.so/r/A776Ro](https://tally.so/r/A776Ro){.external target="_blank"}
+
+## Before November 26th
+
+
+## Before November 28th

@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Schedule\n\n\nInstructors\n\nGracielle Higino\n\n\n\n\nBIO\n\nLeanne Rokos\n\n\n\n\nBIO\n\nJustin Wang\n\n\n\n\nBIO\n\nKelly Shen\n\n\n\n\nBIO"
+  },
+  {
+    "objectID": "about.html#welcome",
+    "href": "about.html#welcome",
+    "title": "About",
+    "section": "",
+    "text": "This website contains all the shared resources that support the Git training hosted by the Institute of Neuroscience and Neurotechnology at the Simon Fraser University. Here you will find reference guides, our schedule, the 100 Days of Version Control challenge materials, and more.\nThis website will be updated as needed, so bookmark it for easy access! We hope this will reduce the amount of information we will need to convey by email, but any major announcements will still be made by direct communication.\nWe hope you’ll enjoy it!\nIf you have any questions, do not hesitate to contact Gracielle."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Git Training - INN",
+    "section": "",
+    "text": "This website contains all the shared resources that support the Git training hosted by the Institute of Neuroscience and Neurotechnology at the Simon Fraser University. Here you will find reference guides, our schedule, the 100 Days of Version Control challenge materials, and more.\nThis website will be updated as needed, so bookmark it for easy access! We hope this will reduce the amount of information we will need to convey by email, but any major announcements will still be made by direct communication.\n\n\n\n\n\n\nImportant\n\n\n\nPlease make sure to review the Preparation page BEFORE the first day of the workshop! On this page you will also find the homework that will need to be done between sessions.\n\n\nWe hope you’ll enjoy it!\nIf you have any questions, do not hesitate to contact Gracielle."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule\n\nDay 01Day 02Day 03\n\n\n\nTuesday, November 25th, 2025\nThe Ethos of Version Control and Project Management 101\n\n\nPre-class work:\n\nYou know who is in your group\nYou have identified a project to work on together and created a repository for that\nYou have git installed on your personal computer and are fully set up\nYou checked if you have access to Fir\nYou have attended a code help session on 21st or 24th if you have ran into problems setting things up\n\n\n\n\n\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n10:00 - 10:15\nOnboarding\n\n\n\n10:15 - 10:30\nLocal station set up\n\n\n\n10:30 - 10:50\nVersion control - the idea\n\n\n\n10:50 - 11:00\nConnecting your local to your remote repository\n\n\n\n11:00 - 11:05\nAdding files to the stage area and removing them + .gitignore\n\n\n\n11:05 - 11:15\nBreak\n\n\n\n11:15 - 11:20\nCommits\n\n\n\n11:20 - 11:25\nPush\n\n\n\n11:25 - 11:35\nQuick review and exercise\n\n\n\n11:35 - 11:40\nPull\n\n\n\n11:40 - 11:50\nDiff and Restore\n\n\n\n11:50 - 11:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nWednesday, November 26th, 2025\nVersion control 102 and working on the cloud\n\n\nPre-class work:\n\nWrite the documentation for your project (README and contribution guidelines)\nThink about what would be the structure of your project while you work on it and what it should look like when you archive it\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n15:00 - 15:10\nOnboarding\n\n\n\n15:10 - 15:25\nBranches\n\n\n\n15:25 - 15:40\nPull requests\n\n\n\n15:40 - 16:00\nMerging and conflicts\n\n\n\n16:00 - 16:05\nBreak\n\n\n\n16:05 - 16:50\nVersion control on Fir\n\n\n\n16:50 - 16:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nFriday, November 28th, 2025\nFAIR principles, 100 Days of Version Control, Version Control Parade\n\n\nPre-class work:\n\nMake sure your local and remotes are in sync\nThink about what you will share with the cohort about your project and how your group have implemented a version control workflow\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n13:00 - 13:10\nOnboarding\n\n\n\n13:10 - 13:30\nBest practices and FAIR principles\n\n\n\n13:30 - 14:00\nFinal practice\n\n\n\n14:00 - 14:30\nVersion Control Parade\n\n\n\n14:30 - 14:50\n100 days of version control challenge\n\n\n\n14:55 - 15:00\nWrap up and feedback"
+  },
+  {
+    "objectID": "schedule.html#day-01",
+    "href": "schedule.html#day-01",
+    "title": "Schedule",
+    "section": "",
+    "text": "The Ethos of Version Control and Project Management 101\n\n\n\n\nYou know who is in your group\nYou have identified a project to work on together and created a repository for that\nYou have git installed on your personal computer and are fully set up\nYou have attended a code help session on 21st or 24th if you have ran into problems setting things up\n\n\n\n\n\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n10:00 - 10:15\nOnboarding\n\n\n\n10:15 - 10:30\nLocal station set up\n\n\n\n10:30 - 10:50\nVersion control - the idea\n\n\n\n10:50 - 11:00\nConnecting your local to your remote repository\n\n\n\n11:00 - 11:05\nAdding files to the stage area and removing them + .gitignore\n\n\n\n11:05 - 11:15\nBreak\n\n\n\n11:15 - 11:20\nCommits\n\n\n\n11:20 - 11:25\nPush\n\n\n\n11:25 - 11:35\nQuick review and exercise\n\n\n\n11:35 - 11:40\nPull\n\n\n\n11:40 - 11:50\nDiff and Restore\n\n\n\n11:50 - 11:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Git Training - INN",
+    "section": "",
+    "text": "This website contains all the shared resources that support the Git training hosted by the Institute of Neuroscience and Neurotechnology at the Simon Fraser University. Here you will find reference guides, our schedule, the 100 Days of Version Control challenge materials, and more.\nThis website will be updated as needed, so bookmark it for easy access! We hope this will reduce the amount of information we will need to convey by email, but any major announcements will still be made by direct communication.\n\n\n\n\n\n\nImportant\n\n\n\nPlease make sure to review the Preparation page BEFORE the first day of the workshop! On this page you will also find the homework that will need to be done between sessions.\n\n\nWe hope you’ll enjoy it!\nIf you have any questions, do not hesitate to contact Gracielle."
+  },
+  {
+    "objectID": "index.html#where",
+    "href": "index.html#where",
+    "title": "Git Training - INN",
+    "section": "📍 Where",
+    "text": "📍 Where\nINN-SCK computer lab"
+  },
+  {
+    "objectID": "index.html#when",
+    "href": "index.html#when",
+    "title": "Git Training - INN",
+    "section": "📅 When",
+    "text": "📅 When\nNovember 25th, from 10am to 12pm\nNovember 26th, from 3pm to 5pm\nNovember 28th, from 1pm to 3pm"
+  },
+  {
+    "objectID": "index.html#calendar-when",
+    "href": "index.html#calendar-when",
+    "title": "Git Training - INN",
+    "section": ":calendar: When",
+    "text": ":calendar: When\nNovember 25th, from 10am to 12pm\nNovember 26th, from 3pm to 5pm\nNovember 28th, from 1pm to 3pm"
+  },
+  {
+    "objectID": "index.html#round_pushpin-where",
+    "href": "index.html#round_pushpin-where",
+    "title": "Git Training - INN",
+    "section": ":round_pushpin: Where",
+    "text": ":round_pushpin: Where\nINN-SCK computer lab"
+  },
+  {
+    "objectID": "index.html#date-when",
+    "href": "index.html#date-when",
+    "title": "Git Training - INN",
+    "section": ":date: When",
+    "text": ":date: When\nNovember 25th, from 10am to 12pm\nNovember 26th, from 3pm to 5pm\nNovember 28th, from 1pm to 3pm"
+  },
+  {
+    "objectID": "prep.html",
+    "href": "prep.html",
+    "title": "Pre-workshop preparation",
+    "section": "",
+    "text": "Important\n\n\n\nPlease review carefully the instructions on this page! They will insure you’re all set for the workshop synchronous sessions. We will not have much time during the workshops to debug individual cases."
+  },
+  {
+    "objectID": "prep.html#before-november-24th",
+    "href": "prep.html#before-november-24th",
+    "title": "Pre-workshop preparation",
+    "section": "Before November 24th",
+    "text": "Before November 24th\n\nCreate an account on GitHub, if you still don’t have one\nCopy this repository template and chage its name to reflect the theme of your group’s project\nMake sure you have a Compute Canada account and can login to Fir\nSet up your personal access token on Fir\nMake sure you have git correctly configured on your computer (git documentation here)\nFill out this pre-workshop survey by November 21st: https://tally.so/r/A776Ro"
+  },
+  {
+    "objectID": "prep.html#before-november-26th",
+    "href": "prep.html#before-november-26th",
+    "title": "Pre-workshop preparation",
+    "section": "Before November 26th",
+    "text": "Before November 26th"
+  },
+  {
+    "objectID": "prep.html#before-november-28th",
+    "href": "prep.html#before-november-28th",
+    "title": "Pre-workshop preparation",
+    "section": "Before November 28th",
+    "text": "Before November 28th"
+  },
+  {
+    "objectID": "pat_fir.html",
+    "href": "pat_fir.html",
+    "title": "Setting up your Personal Access Token",
+    "section": "",
+    "text": "Please follow the instructions under the heading ‘Creating a personal access token (classic)’ to create a Personal Access Token. Generally, you need to have at least the “repo” permissions toggled ON for the token to provide read/write access to the repositories you typically have access to. NOTE: the Personal Access Token is only available for copying until you close the page. Once you close the page, GitHub will not show you that token again and you’ll have to generate a new token if you forget/lose it.\nFollow those instructions, then do the following on all machines you use git on. This command will configure git to look at your ~/.git-credentials file for your GitHub credentials.\n\ngit config --global credential.helper 'store'\n\nThen open/create ~/.git-credentials with nano and add the following line, where &lt;GITHUB_USERNAME&gt; is your GitHub username and &lt;PASTE_TOKEN_HERE&gt; is the Token you copied from the GitHub page.\n\nhttps://&lt;GITHUB_USERNAME&gt;:&lt;PASTE_TOKEN_HERE&gt;@github.com\n\nSave the file and you should be able to do all of your command-line git operations as usual (and without entering your username and password every time).\nPlease keep in mind that this is effectively a password to your account (although only for whatever you grant it the authority to do), so treat it like you’d treat any of your other passwords (don’t paste it into Slack, email, etc.)"
+  },
+  {
+    "objectID": "resources.html#notebooks",
+    "href": "resources.html#notebooks",
+    "title": "Resources",
+    "section": "Notebooks",
+    "text": "Notebooks"
+  },
+  {
+    "objectID": "resources.html#external-references",
+    "href": "resources.html#external-references",
+    "title": "Resources",
+    "section": "External references",
+    "text": "External references\n\nGit cheatsheet"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Pre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
+  },
+  {
+    "objectID": "resources.html#forms-and-quiz",
+    "href": "resources.html#forms-and-quiz",
+    "title": "Resources",
+    "section": "",
+    "text": "Pre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
+  },
+  {
+    "objectID": "resources.html#slides",
+    "href": "resources.html#slides",
+    "title": "Resources",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "resources.html#organizations-and-repositories",
+    "href": "resources.html#organizations-and-repositories",
+    "title": "Resources",
+    "section": "Organizations and repositories",
+    "text": "Organizations and repositories\n\nLab orgs\n\nWiesman lab - https://github.com/nanolab-sfu\nKent lab - https://github.com/Translational-Neuroscience-Lab/\nMcIntosh lab - https://github.com/McIntosh-Lab\nINN-SFU - https://github.com/INN-SFU\n\n\n\nProject repositories\n\nTemplate: https://github.com/INN-SFU/BRS-repository_template"
+  }
+]

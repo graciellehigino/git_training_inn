@@ -1,0 +1,30 @@
+---
+title: "Resources"
+---
+
+## Forms and quiz
+
+* [Pre-workshop survey](https://tally.so/r/A776Ro){.external target="_blank"}
+* [Minute cards for feedback](https://tally.so/r/wL5Xyl){.external target="_blank"}
+* [Quiz](https://www.menti.com/alq75tw7qw2z){.external target="_blank"} (code: 4331 5383)
+
+## Slides
+
+## Notebooks
+
+## Organizations and repositories
+
+### Lab orgs
+
+* Wiesman lab - [https://github.com/nanolab-sfu](https://github.com/nanolab-sfu){.external target="_blank"}
+* Kent lab - [https://github.com/Translational-Neuroscience-Lab/](https://github.com/Translational-Neuroscience-Lab/){.external target="_blank"}
+* McIntosh lab - [https://github.com/McIntosh-Lab](https://github.com/McIntosh-Lab){.external target="_blank"}
+* INN-SFU - [https://github.com/INN-SFU](https://github.com/INN-SFU){.external target="_blank"}
+
+### Project repositories
+
+* Template: [https://github.com/INN-SFU/BRS-repository_template](https://github.com/INN-SFU/BRS-repository_template){.external target="_blank"}
+
+## External references
+
+* [Git cheatsheet](https://www.git-tower.com/blog/media/pages/posts/git-cheat-sheet/b5d32c23dc-1762879557/git-cheat-sheet-large01.avif){.external target="_blank"}

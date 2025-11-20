@@ -1,0 +1,27 @@
+---
+title: "Setting up your Personal Access Token"
+format:
+  html: 
+    code-block-bg: true
+    code-block-border-left: "#757778ff"
+---
+
+1. Please follow the instructions under the heading 'Creating a personal access token (classic)' to create a [Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic). Generally, you need to have at least the "repo" permissions toggled ON for the token to provide read/write access to the repositories you typically have access to. NOTE: the Personal Access Token is only available for copying until you close the page. Once you close the page, GitHub will not show you that token again and you'll have to generate a new token if you forget/lose it.
+
+2. Follow those instructions, then do the following on all machines you use git on. This command will configure git to look at your ~/.git-credentials file for your GitHub credentials.
+
+```{.bash}
+git config --global credential.helper 'store'
+```
+  
+
+3. Then open/create `~/.git-credentials` with [nano](../../Linux/nano.md) and add the following line, where `<GITHUB_USERNAME>` is your GitHub username and `<PASTE_TOKEN_HERE>` is the Token you copied from the GitHub page. 
+
+```{.bash}
+https://<GITHUB_USERNAME>:<PASTE_TOKEN_HERE>@github.com
+```
+
+4. Save the file and you should be able to do all of your command-line git operations as usual (and without entering your username and password every time).
+
+
+5. Please keep in mind that this is effectively a password to your account (although only for whatever you grant it the authority to do), so treat it like you'd treat any of your other passwords (don't paste it into Slack, email, etc.)
