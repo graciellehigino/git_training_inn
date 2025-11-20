@@ -15,7 +15,7 @@ git config --global credential.helper 'store'
 ```
   
 
-3. Then open/create `~/.git-credentials` with [nano](../../Linux/nano.md) and add the following line, where `<GITHUB_USERNAME>` is your GitHub username and `<PASTE_TOKEN_HERE>` is the Token you copied from the GitHub page. 
+3. Then open/create `~/.git-credentials` with [nano](nano.qmd) and add the following line, where `<GITHUB_USERNAME>` is your GitHub username and `<PASTE_TOKEN_HERE>` is the Token you copied from the GitHub page. 
 
 ```{.bash}
 https://<GITHUB_USERNAME>:<PASTE_TOKEN_HERE>@github.com

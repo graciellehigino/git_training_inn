@@ -1,0 +1,28 @@
+---
+title: "Creating and Editing Files with nano"
+---
+
+### What is `nano`?
+`nano` is a text editor that runs directly in the terminal. It allows you to create, view, and edit text files (like scripts, job submission files, or configuration files) without needing a graphical interface.
+
+This makes `nano` especially useful on Digital Research Alliance clusters (e.g. Fir), where most users usually connect remotely (via SSH) and do not have access to a full desktop environment.
+
+### When do I use `nano`?
+
+`nano` really shines when you're making small changes to files on Fir. For larger and longer edits, we recommend making changes on your local computer and then syncing them over to Fir with GitHub or scp/rsync.
+
+## Quick start
+
+Create or edit a file:
+```{.bash}
+nano filename.sh
+```
+
+Save and exit:
+- **Exit**: `Ctrl + x`
+- If prompted to save, press `y` (yes) or `n` (no). Press enter to confirm
+
+For a more detailed tutorial, see [here](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/).
+
+## Errors 
+You may encounter **Permissions errors** when trying to `nano` a file. You might be editing a file you don’t own or in a restricted directory. You may need to copy the file to your scratch or [change permissions with chmod](https://linuxize.com/post/chmod-command-in-linux/) to be able to edit it.
