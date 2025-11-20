@@ -10,6 +10,7 @@ Please review carefully the instructions on this page! They will insure you're a
 
 - [ ] [Create an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github){.external target="_blank"}, if you still don't have one
 - [ ] Copy [this repository template](https://github.com/INN-SFU/BRS-repository_template){.external target="_blank"} and chage its name to reflect the theme of your group's project
+- [ ] Check who is in your [group](#groups) and add them as contributors to the project repository
 - [ ] Make sure you have a Compute Canada account and can login to Fir
 - [ ] [Set up your personal access token on Fir](pat_fir.qmd){.external target="_blank"}
 - [ ] Make sure you have git correctly configured on your computer ([git documentation here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){.external target="_blank"})
@@ -19,3 +20,38 @@ Please review carefully the instructions on this page! They will insure you're a
 
 
 ## Before November 28th
+
+
+### Groups
+
+**Group 1 (PyActigraphy focus):**
+
+* Cesar - INN
+
+* Aina
+
+* Stephanie
+
+**Group 2 (PLS focus):**
+
+* Sarah - McIntosh
+
+* Masoumeh
+
+* Taha
+
+**Group 3 (MSE focus):**
+
+* Maryam - INN
+
+* Emad - Kent
+
+* Victoria
+
+**Group 4 (Imaging focus):**
+
+* Miranda - INN
+
+* Cathlin
+
+* Sean
