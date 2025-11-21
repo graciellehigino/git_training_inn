@@ -7,25 +7,11 @@
     "text": "Schedule\n\nDay 01Day 02Day 03\n\n\n\nTuesday, November 25th, 2025\nThe Ethos of Version Control and Project Management 101\n\n\nPre-class work:\n\nYou know who is in your group\nYou have identified a project to work on together and created a repository for that\nYou have git installed on your personal computer and are fully set up\nYou checked if you have access to Fir\nYou have attended a code help session on 21st or 24th if you have ran into problems setting things up\n\n\n\n\n\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n10:00 - 10:15\nOnboarding\n\n\n\n10:15 - 10:30\nLocal station set up\n\n\n\n10:30 - 10:50\nVersion control - the idea\n\n\n\n10:50 - 11:00\nConnecting your local to your remote repository\n\n\n\n11:00 - 11:05\nAdding files to the stage area and removing them + .gitignore\n\n\n\n11:05 - 11:15\nBreak\n\n\n\n11:15 - 11:20\nCommits\n\n\n\n11:20 - 11:25\nPush\n\n\n\n11:25 - 11:35\nQuick review and exercise\n\n\n\n11:35 - 11:40\nPull\n\n\n\n11:40 - 11:50\nDiff and Restore\n\n\n\n11:50 - 11:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nWednesday, November 26th, 2025\nVersion control 102 and working on the cloud\n\n\nPre-class work:\n\nWrite the documentation for your project (README and contribution guidelines)\nThink about what would be the structure of your project while you work on it and what it should look like when you archive it\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n15:00 - 15:10\nOnboarding\n\n\n\n15:10 - 15:25\nBranches\n\n\n\n15:25 - 15:40\nPull requests\n\n\n\n15:40 - 16:00\nMerging and conflicts\n\n\n\n16:00 - 16:05\nBreak\n\n\n\n16:05 - 16:50\nVersion control on Fir\n\n\n\n16:50 - 16:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nFriday, November 28th, 2025\nFAIR principles, 100 Days of Version Control, Version Control Parade\n\n\nPre-class work:\n\nMake sure your local and remotes are in sync\nThink about what you will share with the cohort about your project and how your group have implemented a version control workflow\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n13:00 - 13:10\nOnboarding\n\n\n\n13:10 - 13:30\nBest practices and FAIR principles\n\n\n\n13:30 - 14:00\nFinal practice\n\n\n\n14:00 - 14:30\nVersion Control Parade\n\n\n\n14:30 - 14:50\n100 days of version control challenge\n\n\n\n14:55 - 15:00\nWrap up and feedback"
   },
   {
-    "objectID": "prep.html",
-    "href": "prep.html",
-    "title": "Pre-workshop preparation",
+    "objectID": "pat_fir.html",
+    "href": "pat_fir.html",
+    "title": "Setting up your Personal Access Token",
     "section": "",
-    "text": "Important\n\n\n\nPlease review carefully the instructions on this page! They will insure you’re all set for the workshop synchronous sessions. We will not have much time during the workshops to debug individual cases."
-  },
-  {
-    "objectID": "prep.html#before-november-21st",
-    "href": "prep.html#before-november-21st",
-    "title": "Pre-workshop preparation",
-    "section": "Before November 21st",
-    "text": "Before November 21st\n\nCreate an account on GitHub, if you still don’t have one\nMake sure you have a Compute Canada account and can login to Fir\nFill out this pre-workshop survey by November 21st: https://tally.so/r/A776Ro"
-  },
-  {
-    "objectID": "prep.html#before-november-24th",
-    "href": "prep.html#before-november-24th",
-    "title": "Pre-workshop preparation",
-    "section": "Before November 24th",
-    "text": "Before November 24th\n\nSet up your personal access token on Fir\nMake sure you have git correctly configured on your computer (git documentation here)"
+    "text": "Please follow the instructions under the heading ‘Creating a personal access token (classic)’ to create a Personal Access Token. Generally, you need to have at least the “repo” permissions toggled ON for the token to provide read/write access to the repositories you typically have access to. NOTE: the Personal Access Token is only available for copying until you close the page. Once you close the page, GitHub will not show you that token again and you’ll have to generate a new token if you forget/lose it.\nFollow those instructions, then do the following on all machines you use git on. This command will configure git to look at your ~/.git-credentials file for your GitHub credentials.\n\ngit config --global credential.helper 'store'\n\nThen open/create ~/.git-credentials with nano and add the following line, where &lt;GITHUB_USERNAME&gt; is your GitHub username and &lt;PASTE_TOKEN_HERE&gt; is the Token you copied from the GitHub page.\n\nhttps://&lt;GITHUB_USERNAME&gt;:&lt;PASTE_TOKEN_HERE&gt;@github.com\n\nSave the file and you should be able to do all of your command-line git operations as usual (and without entering your username and password every time).\nPlease keep in mind that this is effectively a password to your account (although only for whatever you grant it the authority to do), so treat it like you’d treat any of your other passwords (don’t paste it into Slack, email, etc.)"
   },
   {
     "objectID": "nano.html",
@@ -47,13 +33,6 @@
     "title": "Creating and Editing Files with nano",
     "section": "Errors",
     "text": "Errors\nYou may encounter Permissions errors when trying to nano a file. You might be editing a file you don’t own or in a restricted directory. You may need to copy the file to your scratch or change permissions with chmod to be able to edit it."
-  },
-  {
-    "objectID": "100days.html",
-    "href": "100days.html",
-    "title": "100 Days of Version Control",
-    "section": "",
-    "text": "By completing this training, you are automatically subscribed to the 100 Days of Version Control Challenge! 🎉\n\nPurpose\nThe purpose of this challenge is to encourage you to create the habit of committing and pushing often, and to lose the fear of version control. It is also aimed at practicing and implementing best practices related to version control, such as descriptive commit messages, rules for branching, grouping commits per push, etc.\n\n\nOutcome\nAt the end of the 100 days, you will have a history of contributions that is registered on GitHub (that you can use as a portfolio!). We hope that the multiple milestones and cellebrations, and also the record of everything that you do during these 100 days will empower you to keep the habit throughout your career.\n\n\nProcess\nYou will work in teams of three on a shared project. You can, potentially, work on more than one project as long as you collaborate on them during the 100 days.\nYou will need to make contributions in the form of commits and push, PRs, or merges every day, for 100 days.\nFor each challenge, you or your group will need to submit your nominations using the designated form to be provided by the organization on this page at a future date.\nYou will also have access to office hours every Monday at 10am PT to debug and ask questions, and you can chose to be mentored by one of the instructors during these hours.\n\nMilestones\nEvery 30 days will mark a milestone, and a “newsletter” will be sent to all participants with highlights of the month, featuring achievements, anonymized bugs and solutions to these bugs, and what to expect for the next 30 days (reminder of the challenges).\nAt the end of the 100 days + one week (March 13, 2026), there will be a big celebration with distribution of prizes.\nDetails about online calls and graduation party will be announced here and on the monthly newsletter."
   },
   {
     "objectID": "index.html",
@@ -84,11 +63,39 @@
     "text": "📅 When\nNovember 25th, from 10am to 12pm\nNovember 26th, from 3pm to 5pm\nNovember 28th, from 1pm to 3pm"
   },
   {
-    "objectID": "pat_fir.html",
-    "href": "pat_fir.html",
-    "title": "Setting up your Personal Access Token",
+    "objectID": "coc.html",
+    "href": "coc.html",
+    "title": "Code of Conduct",
     "section": "",
-    "text": "Please follow the instructions under the heading ‘Creating a personal access token (classic)’ to create a Personal Access Token. Generally, you need to have at least the “repo” permissions toggled ON for the token to provide read/write access to the repositories you typically have access to. NOTE: the Personal Access Token is only available for copying until you close the page. Once you close the page, GitHub will not show you that token again and you’ll have to generate a new token if you forget/lose it.\nFollow those instructions, then do the following on all machines you use git on. This command will configure git to look at your ~/.git-credentials file for your GitHub credentials.\n\ngit config --global credential.helper 'store'\n\nThen open/create ~/.git-credentials with nano and add the following line, where &lt;GITHUB_USERNAME&gt; is your GitHub username and &lt;PASTE_TOKEN_HERE&gt; is the Token you copied from the GitHub page.\n\nhttps://&lt;GITHUB_USERNAME&gt;:&lt;PASTE_TOKEN_HERE&gt;@github.com\n\nSave the file and you should be able to do all of your command-line git operations as usual (and without entering your username and password every time).\nPlease keep in mind that this is effectively a password to your account (although only for whatever you grant it the authority to do), so treat it like you’d treat any of your other passwords (don’t paste it into Slack, email, etc.)"
+    "text": "This training program runs under the Open Scholarship Initiative Code of Conduct. Please read it carefully before agreeing to join us.\nIn summary, we expect you to be excellent to each other. If you witness or experience any violation of this Code of Conduct, please reach out to one of the instructors immediately."
+  },
+  {
+    "objectID": "prep.html",
+    "href": "prep.html",
+    "title": "Pre-workshop preparation",
+    "section": "",
+    "text": "Important\n\n\n\nPlease review carefully the instructions on this page! They will insure you’re all set for the workshop synchronous sessions. We will not have much time during the workshops to debug individual cases."
+  },
+  {
+    "objectID": "prep.html#before-november-21st",
+    "href": "prep.html#before-november-21st",
+    "title": "Pre-workshop preparation",
+    "section": "Before November 21st",
+    "text": "Before November 21st\n\nCreate an account on GitHub, if you still don’t have one\nMake sure you have a Compute Canada account and can login to Fir\nFill out this pre-workshop survey by November 21st: https://tally.so/r/A776Ro"
+  },
+  {
+    "objectID": "prep.html#before-november-24th",
+    "href": "prep.html#before-november-24th",
+    "title": "Pre-workshop preparation",
+    "section": "Before November 24th",
+    "text": "Before November 24th\n\nSet up your personal access token on Fir\nMake sure you have git correctly configured on your computer (git documentation here)"
+  },
+  {
+    "objectID": "100days.html",
+    "href": "100days.html",
+    "title": "100 Days of Version Control",
+    "section": "",
+    "text": "By completing this training, you are automatically subscribed to the 100 Days of Version Control Challenge! 🎉\n\nPurpose\nThe purpose of this challenge is to encourage you to create the habit of committing and pushing often, and to lose the fear of version control. It is also aimed at practicing and implementing best practices related to version control, such as descriptive commit messages, rules for branching, grouping commits per push, etc.\n\n\nOutcome\nAt the end of the 100 days, you will have a history of contributions that is registered on GitHub (that you can use as a portfolio!). We hope that the multiple milestones and cellebrations, and also the record of everything that you do during these 100 days will empower you to keep the habit throughout your career.\n\n\nProcess\nYou will work in teams of three on a shared project. You can, potentially, work on more than one project as long as you collaborate on them during the 100 days.\nYou will need to make contributions in the form of commits and push, PRs, or merges every day, for 100 days.\nFor each challenge, you or your group will need to submit your nominations using the designated form to be provided by the organization on this page at a future date.\nYou will also have access to office hours every Monday at 10am PT to debug and ask questions, and you can chose to be mentored by one of the instructors during these hours.\n\nMilestones\nEvery 30 days will mark a milestone, and a “newsletter” will be sent to all participants with highlights of the month, featuring achievements, anonymized bugs and solutions to these bugs, and what to expect for the next 30 days (reminder of the challenges).\nAt the end of the 100 days + one week (March 13, 2026), there will be a big celebration with distribution of prizes.\nDetails about online calls and graduation party will be announced here and on the monthly newsletter."
   },
   {
     "objectID": "resources.html",
