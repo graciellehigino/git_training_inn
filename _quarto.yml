@@ -18,6 +18,7 @@ website:
         text: Resources
       - href: 100days.qmd
         text: 100 Days of Version Control
+  back-to-top-navigation: true
 
 format:
   html:
