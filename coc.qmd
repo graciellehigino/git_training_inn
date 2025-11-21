@@ -1,0 +1,7 @@
+---
+title: "Code of Conduct"
+---
+
+This training program runs under the [Open Scholarship Initiative Code of Conduct](https://github.com/open-scholarship-sfu/phase1-base/blob/1998ec09acc4ee9fb4da35442e255ebc2f5a558a/CODE_OF_CONDUCT.pdf). Please read it carefully before agreeing to join us.
+
+In summary, we expect you to be excellent to each other. If you witness or experience any violation of this Code of Conduct, please reach out to one of the [instructors](/index.qmd#instructors) immediately.

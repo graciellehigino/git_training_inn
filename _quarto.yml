@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: coc.qmd
+        text: Code of Conduct
       - href: prep.qmd
         text: Preparation
       - href: schedule.qmd
