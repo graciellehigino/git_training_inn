@@ -2,6 +2,10 @@
 title: "Resources"
 ---
 
+## JupyterHub on Fir
+
+* [Link to JupyterHub](http://jupyterhub.fir.alliancecan.ca){.external target="_blank"}
+
 ## Forms and quiz
 
 * [Pre-workshop survey](https://tally.so/r/A776Ro){.external target="_blank"}
