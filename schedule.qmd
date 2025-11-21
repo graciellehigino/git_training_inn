@@ -13,7 +13,7 @@
 -   [ ] You have identified a project to work on together and created a repository for that
 -   [ ] You have git installed on your personal computer and are fully set up
 -   [ ] You checked if you have access to Fir
--   [ ] You have attended a code help session on 21st or 24th if you have ran into problems setting things up
+-   [ ] You have attended a [code help session on 21st or 24th](/prep.qmd#help-sessions) if you have ran into problems setting things up
 
 | Progress | Time | Subject |
 |-----------|--------------|-------------------------------------------|

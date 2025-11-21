@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.7.23">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,19 +32,17 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-7271f29f9498218151f3120baddb7363.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a1c87f40015067c62c82f3c4ff3d1ad4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-de0ed3b9a49d5daa615839eefb10c6a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a1c87f40015067c62c82f3c4ff3d1ad4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a673a8bf56ad7d487eb6457527ce6934.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5aaaaf175e0b49d5f478cae2ce36283e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a673a8bf56ad7d487eb6457527ce6934.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
         toggleBodyColorMode(bsSheetEl);
       }
     }
-    const setColorSchemeToggle = (alternate) => {
+    window.setColorSchemeToggle = (alternate) => {
       const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
@@ -128,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       }
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
-      setColorSchemeToggle(alternate)
+      window.setColorSchemeToggle(alternate)
       // Hack to workaround the fact that safari doesn't
       // properly recolor the scrollbar when toggling (#1455)
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
@@ -168,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
     const isFileUrl = () => {
       return window.location.protocol === 'file:';
     }
-    const hasAlternateSentinel = () => {
+    window.hasAlternateSentinel = () => {
       let styleSentinel = getColorSchemeSentinel();
       if (styleSentinel !== null) {
         return styleSentinel === "alternate";
@@ -196,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
       const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
       const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
       let newTheme = '';
-      if(authorPrefersDark) {
+      if(darkModeDefault) {
         newTheme = isAlternate ? baseTheme : alternateTheme;
       } else {
         newTheme = isAlternate ? alternateTheme : baseTheme;
@@ -219,22 +217,19 @@ ul.task-list li input[type="checkbox"] {
         changeGiscusTheme();
       }
     };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    const darkModeDefault = false;
+    document.querySelector('link.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
     // Dark / light mode switch
     window.quartoToggleColorScheme = () => {
       // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
+      let toAlternate = !window.hasAlternateSentinel();
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
     };
     // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
+    if (window.hasAlternateSentinel()) {
       toggleColorMode(true);
     } else {
       toggleColorMode(false);
@@ -246,8 +241,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Git Training - INN</span>
     </a>
@@ -301,10 +294,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#before-november-21st" id="toc-before-november-21st" class="nav-link active" data-scroll-target="#before-november-21st">Before November 21st</a></li>
   <li><a href="#before-november-24th" id="toc-before-november-24th" class="nav-link" data-scroll-target="#before-november-24th">Before November 24th</a></li>
-  <li><a href="#before-november-25th" id="toc-before-november-25th" class="nav-link" data-scroll-target="#before-november-25th">Before November 25th</a>
-  <ul class="collapse">
+  <li><a href="#before-november-25th" id="toc-before-november-25th" class="nav-link" data-scroll-target="#before-november-25th">Before November 25th</a></li>
+  <li><a href="#help-sessions" id="toc-help-sessions" class="nav-link" data-scroll-target="#help-sessions">Help sessions</a></li>
   <li><a href="#groups" id="toc-groups" class="nav-link" data-scroll-target="#groups">Groups</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -359,15 +351,46 @@ Important
 <li><label><input type="checkbox">Make sure you have git correctly configured on your computer (<a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" class="external" target="_blank">git documentation here</a>)</label></li>
 </ul>
 </section>
-<section id="before-november-25th" class="level1">
-<h1>Before November 25th</h1>
+<section id="before-november-25th" class="level2">
+<h2 class="anchored" data-anchor-id="before-november-25th">Before November 25th</h2>
 <ul class="task-list">
+<li><label><input type="checkbox">Read carefully our <a href="./coc.html">Code of Conduct</a> and evaluate if you know how to act if you witness or experience a Code of Conduct violation.</label></li>
 <li><label><input type="checkbox">Check who is in your <a href="#groups">group</a> and get their GitHub handles</label></li>
 <li><label><input type="checkbox">Identify a real project to work on together</label></li>
 <li><label><input type="checkbox">Copy <a href="https://github.com/INN-SFU/BRS-repository_template" class="external" target="_blank">this repository template</a> and chage its name to reflect the theme of your group’s project</label></li>
 </ul>
-<section id="groups" class="level3">
-<h3 class="anchored" data-anchor-id="groups">Groups</h3>
+</section>
+<section id="help-sessions" class="level2">
+<h2 class="anchored" data-anchor-id="help-sessions">Help sessions</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Day</th>
+<th>Time</th>
+<th>Where</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>November 21st</td>
+<td>10:30 am - 1:30 pm</td>
+<td><a href="https://sfu.zoom.us/j/84049242824?pwd=V4ylWwCjjHB9TMj3W9crP8uwxrzavj.1">Join on Zoom</a></td>
+</tr>
+<tr class="even">
+<td>November 24th</td>
+<td>10:30 am - 1:30 pm</td>
+<td><a href="https://sfu.zoom.us/j/84049242824?pwd=V4ylWwCjjHB9TMj3W9crP8uwxrzavj.1">Join on Zoom</a></td>
+</tr>
+<tr class="odd">
+<td>November 24th</td>
+<td>10:00 am - 11:00 am</td>
+<td><a href="https://sfu.zoom.us/j/83746170593?pwd=CSasAFlhnG27luzK1lYbhBgHNaSciq.1">Join on Zoom</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="groups" class="level2">
+<h2 class="anchored" data-anchor-id="groups">Groups</h2>
 <p><strong>Group 1 (PyActigraphy focus):</strong></p>
 <ul>
 <li>Cesar</li>
@@ -395,9 +418,8 @@ Important
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -412,7 +434,7 @@ Important
       a.appendChild(i);
       window.document.body.appendChild(a);
     }
-    setColorSchemeToggle(hasAlternateSentinel())
+    window.setColorSchemeToggle(window.hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -462,14 +484,13 @@ Important
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -484,7 +505,7 @@ Important
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/graciellehigino\.github\.io\/git_training_inn\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
