@@ -11,14 +11,21 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Pre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
+    "text": "Link to JupyterHub"
+  },
+  {
+    "objectID": "resources.html#jupyterhub-on-fir",
+    "href": "resources.html#jupyterhub-on-fir",
+    "title": "Resources",
+    "section": "",
+    "text": "Link to JupyterHub"
   },
   {
     "objectID": "resources.html#forms-and-quiz",
     "href": "resources.html#forms-and-quiz",
     "title": "Resources",
-    "section": "",
-    "text": "Pre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
+    "section": "Forms and quiz",
+    "text": "Forms and quiz\n\nPre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
   },
   {
     "objectID": "resources.html#slides",
@@ -137,7 +144,7 @@
     "href": "prep.html#before-november-25th",
     "title": "Pre-workshop preparation",
     "section": "Before November 25th",
-    "text": "Before November 25th\n\nRead carefully our Code of Conduct and evaluate if you know how to act if you witness or experience a Code of Conduct violation.\nCheck who is in your group and get their GitHub handles\nIdentify a real project to work on together\nCopy this repository template and chage its name to reflect the theme of your group’s project"
+    "text": "Before November 25th\n\nRead carefully our Code of Conduct and evaluate if you know how to act if you witness or experience a Code of Conduct violation.\nCheck who is in your group and get their GitHub handles\nIdentify a real topic to work on together\nCreate a repository with a name that reflects the theme of your group’s codebase"
   },
   {
     "objectID": "prep.html#help-sessions",
@@ -151,7 +158,7 @@
     "href": "prep.html#groups",
     "title": "Pre-workshop preparation",
     "section": "Groups",
-    "text": "Groups\nGroup 1 (PyActigraphy focus):\n\nCesar\nAina\nStephanie\n\nGroup 2 (PLS focus):\n\nSarah\nMasoumeh\nTaha\n\nGroup 3 (MSE focus):\n\nMaryam\nEmad\nVictoria\n\nGroup 4 (Imaging focus):\n\nMiranda\nCathlin\nSean"
+    "text": "Groups\nGroup 1 (PyActigraphy focus):\n\nCesar\nAina\nStephanie\n\nGroup 2 (PLS focus):\n\nSarah\nMasoumeh\nTaha\n\nGroup 3 (MSE focus):\n\nMaryam\nEmad\nVictoria\n\nGroup 4 (Imaging focus):\n\nMiranda\n\nCathlin\n\nSean"
   },
   {
     "objectID": "schedule.html",
