@@ -21,8 +21,8 @@ Please review carefully the instructions on this page! They will insure you're a
 
 -   [ ] Read carefully our [Code of Conduct](/coc.qmd) and evaluate if you know how to act if you witness or experience a Code of Conduct violation.
 -   [ ] Check who is in your [group](#groups) and get their GitHub handles
--   [ ] Identify a real project to work on together
--   [ ] Copy [this repository template](https://github.com/INN-SFU/BRS-repository_template){.external target="_blank"} and chage its name to reflect the theme of your group's project
+-   [ ] Identify a real topic to work on together
+-   [ ] Create a repository with a name that reflects the theme of your group's codebase
 
 ## Help sessions
 
@@ -54,6 +54,6 @@ Please review carefully the instructions on this page! They will insure you're a
 
 **Group 4 (Imaging focus):**
 
--   Miranda
--   Cathlin
--   Sean
+* Miranda  
+* Cathlin  
+* Sean
