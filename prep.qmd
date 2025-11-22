@@ -2,50 +2,58 @@
 title: "Pre-workshop preparation"
 ---
 
-:::{.callout-important}
+::: callout-important
 Please review carefully the instructions on this page! They will insure you're all set for the workshop synchronous sessions. We will not have much time during the workshops to debug individual cases.
 :::
 
 ## Before November 21st
 
-- [ ] [Create an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github){.external target="_blank"}, if you still don't have one
-- [ ] Make sure you have a Compute Canada account and can login to Fir
-- [ ] Fill out this pre-workshop survey by **November 21st**: [https://tally.so/r/A776Ro](https://tally.so/r/A776Ro){.external target="_blank"}
-
+-   [ ] [Create an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github){.external target="_blank"}, if you still don't have one
+-   [ ] Make sure you have a Compute Canada account and can login to Fir
+-   [ ] Fill out this pre-workshop survey by **November 21st**: [https://tally.so/r/A776Ro](https://tally.so/r/A776Ro){.external target="_blank"}
 
 ## Before November 24th
 
-- [ ] [Set up your personal access token on Fir](pat_fir.qmd){.external target="_blank"}
-- [ ] Make sure you have git correctly configured on your computer ([git documentation here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){.external target="_blank"})
+-   [ ] [Set up your personal access token on Fir](pat_fir.qmd){.external target="_blank"}
+-   [ ] Make sure you have git correctly configured on your computer ([git documentation here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){.external target="_blank"})
 
-# Before November 25th
+## Before November 25th
 
-- [ ] Check who is in your [group](#groups) and get their GitHub handles
-- [ ] Identify a real topic to work on together
-- [ ] Create a repository with a name that reflects the theme of your group's codebase
+-   [ ] Read carefully our [Code of Conduct](/coc.qmd) and evaluate if you know how to act if you witness or experience a Code of Conduct violation.
+-   [ ] Check who is in your [group](#groups) and get their GitHub handles
+-   [ ] Identify a real topic to work on together
+-   [ ] Create a repository with a name that reflects the theme of your group's codebase
 
-### Groups
+## Help sessions
+
+| Day | Time | Where |
+|-------------------|---------------------|------------------|
+| November 21st | 10:30 am - 1:30 pm | [Join on Zoom](https://sfu.zoom.us/j/84049242824?pwd=V4ylWwCjjHB9TMj3W9crP8uwxrzavj.1) |
+| November 24th | 10:30 am - 1:30 pm | [Join on Zoom](https://sfu.zoom.us/j/84049242824?pwd=V4ylWwCjjHB9TMj3W9crP8uwxrzavj.1) |
+| November 24th | 10:00 am - 11:00 am | [Join on Zoom](https://sfu.zoom.us/j/83746170593?pwd=CSasAFlhnG27luzK1lYbhBgHNaSciq.1) |
+
+## Groups {#groups}
 
 **Group 1 (PyActigraphy focus):**
 
-* Cesar
-* Aina
-* Stephanie
+-   Cesar
+-   Aina
+-   Stephanie
 
 **Group 2 (PLS focus):**
 
-* Sarah 
-* Masoumeh
-* Taha
+-   Sarah
+-   Masoumeh
+-   Taha
 
 **Group 3 (MSE focus):**
 
-* Maryam
-* Emad
-* Victoria
+-   Maryam
+-   Emad
+-   Victoria
 
 **Group 4 (Imaging focus):**
 
-* Miranda
-* Cathlin
+* Miranda  
+* Cathlin  
 * Sean
