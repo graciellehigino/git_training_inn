@@ -11,24 +11,20 @@
 
 -   [ ] You know who is in your group
 -   [ ] You have identified a project to work on together and created a repository for that
--   [ ] You have git installed on your personal computer and are fully set up
 -   [ ] You checked if you have access to Fir
 -   [ ] You have attended a [code help session on 21st or 24th](/prep.qmd#help-sessions) if you have ran into problems setting things up
 
 | Progress | Time | Subject |
 |-----------|--------------|-------------------------------------------|
-|  | **10:00 - 10:15** | Onboarding |
-|  | **10:15 - 10:30** | Local station set up |
+|  | **10:00 - 10:05** | JupyterHub login |
+|  | **10:05 - 10:15** | Onboarding |
+|  | **10:15 - 10:30** | git set up on Fir |
 |  | **10:30 - 10:50** | Version control - the idea |
 |  | **10:50 - 11:00** | Connecting your local to your remote repository |
-|  | **11:00 - 11:05** | Adding files to the stage area and removing them + .gitignore |
-|  | **11:05 - 11:15** | **Break** |
-|  | **11:15 - 11:20** | Commits |
-|  | **11:20 - 11:25** | Push |
-|  | **11:25 - 11:35** | Quick review and exercise |
+|  | **11:00 - 11:10** | **Break** |
+|  | **11:10 - 11:35** | Adding, committing and pushing |
 |  | **11:35 - 11:40** | Pull |
-|  | **11:40 - 11:50** | Diff and Restore |
-|  | **11:50 - 11:55** | Quiz time |
+|  | **11:40 - 11:55** | Quick review and exercise |
 |  | **11:55 - 12:00** | Wrap up and feedback |
 
 
