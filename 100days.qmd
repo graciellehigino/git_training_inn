@@ -26,4 +26,12 @@ At the end of the 100 days + one week (March 13, 2026), there will be a big cele
 
 Details about online calls and graduation party will be announced here and on the monthly newsletter.
 
+### GitHub repository for participation
 
+All activities will be tracked on a GitHub repository. There you can find more detailed instructions about each challenge and how to record your 100 days journey.
+
+You should have received an invite to contribute to this repository, so you'd have access to push, pull and comment on issues. If you did not get one of if your invitation has expired, let us know!
+
+:::{.callout-important appearance="minimal"}
+👉 [**https://github.com/INN-SFU/100daysofversioncontrol/**](https://github.com/INN-SFU/100daysofversioncontrol/){.external target="_blank"}
+:::

@@ -11,14 +11,21 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Pre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
+    "text": "Link to JupyterHub"
+  },
+  {
+    "objectID": "resources.html#jupyterhub-on-fir",
+    "href": "resources.html#jupyterhub-on-fir",
+    "title": "Resources",
+    "section": "",
+    "text": "Link to JupyterHub"
   },
   {
     "objectID": "resources.html#forms-and-quiz",
     "href": "resources.html#forms-and-quiz",
     "title": "Resources",
-    "section": "",
-    "text": "Pre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
+    "section": "Forms and quiz",
+    "text": "Forms and quiz\n\nPre-workshop survey\nMinute cards for feedback\nQuiz (code: 4331 5383)"
   },
   {
     "objectID": "resources.html#slides",
@@ -26,13 +33,6 @@
     "title": "Resources",
     "section": "Slides",
     "text": "Slides"
-  },
-  {
-    "objectID": "resources.html#notebooks",
-    "href": "resources.html#notebooks",
-    "title": "Resources",
-    "section": "Notebooks",
-    "text": "Notebooks"
   },
   {
     "objectID": "resources.html#organizations-and-repositories",
@@ -88,7 +88,7 @@
     "href": "100days.html",
     "title": "100 Days of Version Control",
     "section": "",
-    "text": "By completing this training, you are automatically subscribed to the 100 Days of Version Control Challenge! 🎉\n\nPurpose\nThe purpose of this challenge is to encourage you to create the habit of committing and pushing often, and to lose the fear of version control. It is also aimed at practicing and implementing best practices related to version control, such as descriptive commit messages, rules for branching, grouping commits per push, etc.\n\n\nOutcome\nAt the end of the 100 days, you will have a history of contributions that is registered on GitHub (that you can use as a portfolio!). We hope that the multiple milestones and cellebrations, and also the record of everything that you do during these 100 days will empower you to keep the habit throughout your career.\n\n\nProcess\nYou will work in teams of three on a shared project. You can, potentially, work on more than one project as long as you collaborate on them during the 100 days.\nYou will need to make contributions in the form of commits and push, PRs, or merges every day, for 100 days.\nFor each challenge, you or your group will need to submit your nominations using the designated form to be provided by the organization on this page at a future date.\nYou will also have access to office hours every Monday at 10am PT to debug and ask questions, and you can chose to be mentored by one of the instructors during these hours.\n\nMilestones\nEvery 30 days will mark a milestone, and a “newsletter” will be sent to all participants with highlights of the month, featuring achievements, anonymized bugs and solutions to these bugs, and what to expect for the next 30 days (reminder of the challenges).\nAt the end of the 100 days + one week (March 13, 2026), there will be a big celebration with distribution of prizes.\nDetails about online calls and graduation party will be announced here and on the monthly newsletter.\n\n\n\n\n\n Back to top"
+    "text": "By completing this training, you are automatically subscribed to the 100 Days of Version Control Challenge! 🎉\n\nPurpose\nThe purpose of this challenge is to encourage you to create the habit of committing and pushing often, and to lose the fear of version control. It is also aimed at practicing and implementing best practices related to version control, such as descriptive commit messages, rules for branching, grouping commits per push, etc.\n\n\nOutcome\nAt the end of the 100 days, you will have a history of contributions that is registered on GitHub (that you can use as a portfolio!). We hope that the multiple milestones and cellebrations, and also the record of everything that you do during these 100 days will empower you to keep the habit throughout your career.\n\n\nProcess\nYou will work in teams of three on a shared project. You can, potentially, work on more than one project as long as you collaborate on them during the 100 days.\nYou will need to make contributions in the form of commits and push, PRs, or merges every day, for 100 days.\nFor each challenge, you or your group will need to submit your nominations using the designated form to be provided by the organization on this page at a future date.\nYou will also have access to office hours every Monday at 10am PT to debug and ask questions, and you can chose to be mentored by one of the instructors during these hours.\n\nMilestones\nEvery 30 days will mark a milestone, and a “newsletter” will be sent to all participants with highlights of the month, featuring achievements, anonymized bugs and solutions to these bugs, and what to expect for the next 30 days (reminder of the challenges).\nAt the end of the 100 days + one week (March 13, 2026), there will be a big celebration with distribution of prizes.\nDetails about online calls and graduation party will be announced here and on the monthly newsletter.\n\n\n\nGitHub repository for participation\nAll activities will be tracked on a GitHub repository. There you can find more detailed instructions about each challenge and how to record your 100 days journey.\nYou should have received an invite to contribute to this repository, so you’d have access to push, pull and comment on issues. If you did not get one of if your invitation has expired, let us know!\n\n\n\n\n\n\n👉 https://github.com/INN-SFU/100daysofversioncontrol/\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "nano.html",
@@ -137,7 +137,7 @@
     "href": "prep.html#before-november-25th",
     "title": "Pre-workshop preparation",
     "section": "Before November 25th",
-    "text": "Before November 25th\n\nRead carefully our Code of Conduct and evaluate if you know how to act if you witness or experience a Code of Conduct violation.\nCheck who is in your group and get their GitHub handles\nIdentify a real project to work on together\nCopy this repository template and chage its name to reflect the theme of your group’s project"
+    "text": "Before November 25th\n\nRead carefully our Code of Conduct and evaluate if you know how to act if you witness or experience a Code of Conduct violation.\nCheck who is in your group and get their GitHub handles\nIdentify a real topic to work on together\nCreate a repository with a name that reflects the theme of your group’s codebase"
   },
   {
     "objectID": "prep.html#help-sessions",
@@ -151,13 +151,13 @@
     "href": "prep.html#groups",
     "title": "Pre-workshop preparation",
     "section": "Groups",
-    "text": "Groups\nGroup 1 (PyActigraphy focus):\n\nCesar\nAina\nStephanie\n\nGroup 2 (PLS focus):\n\nSarah\nMasoumeh\nTaha\n\nGroup 3 (MSE focus):\n\nMaryam\nEmad\nVictoria\n\nGroup 4 (Imaging focus):\n\nMiranda\nCathlin\nSean"
+    "text": "Groups\nGroup 1 (PyActigraphy focus):\n\nCesar\nAina\nStephanie\n\nGroup 2 (PLS focus):\n\nSarah\nMasoumeh\nTaha\n\nGroup 3 (MSE focus):\n\nMaryam\nEmad\nVictoria\n\nGroup 4 (Imaging focus):\n\nMiranda\n\nCathlin\n\nSean"
   },
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule\n\nDay 01Day 02Day 03\n\n\n\nTuesday, November 25th, 2025\nThe Ethos of Version Control and Project Management 101\n\n\nPre-class work:\n\nYou know who is in your group\nYou have identified a project to work on together and created a repository for that\nYou have git installed on your personal computer and are fully set up\nYou checked if you have access to Fir\nYou have attended a code help session on 21st or 24th if you have ran into problems setting things up\n\n\n\n\n\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n10:00 - 10:15\nOnboarding\n\n\n\n10:15 - 10:30\nLocal station set up\n\n\n\n10:30 - 10:50\nVersion control - the idea\n\n\n\n10:50 - 11:00\nConnecting your local to your remote repository\n\n\n\n11:00 - 11:05\nAdding files to the stage area and removing them + .gitignore\n\n\n\n11:05 - 11:15\nBreak\n\n\n\n11:15 - 11:20\nCommits\n\n\n\n11:20 - 11:25\nPush\n\n\n\n11:25 - 11:35\nQuick review and exercise\n\n\n\n11:35 - 11:40\nPull\n\n\n\n11:40 - 11:50\nDiff and Restore\n\n\n\n11:50 - 11:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nWednesday, November 26th, 2025\nVersion control 102 and working on the cloud\n\n\nPre-class work:\n\nWrite the documentation for your project (README and contribution guidelines)\nThink about what would be the structure of your project while you work on it and what it should look like when you archive it\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n15:00 - 15:10\nOnboarding\n\n\n\n15:10 - 15:25\nBranches\n\n\n\n15:25 - 15:40\nPull requests\n\n\n\n15:40 - 16:00\nMerging and conflicts\n\n\n\n16:00 - 16:05\nBreak\n\n\n\n16:05 - 16:50\nVersion control on Fir\n\n\n\n16:50 - 16:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nFriday, November 28th, 2025\nFAIR principles, 100 Days of Version Control, Version Control Parade\n\n\nPre-class work:\n\nMake sure your local and remotes are in sync\nThink about what you will share with the cohort about your project and how your group have implemented a version control workflow\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n13:00 - 13:10\nOnboarding\n\n\n\n13:10 - 13:30\nBest practices and FAIR principles\n\n\n\n13:30 - 14:00\nFinal practice\n\n\n\n14:00 - 14:30\nVersion Control Parade\n\n\n\n14:30 - 14:50\n100 days of version control challenge\n\n\n\n14:55 - 15:00\nWrap up and feedback\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Schedule\n\nDay 01Day 02Day 03\n\n\n\nTuesday, November 25th, 2025\nThe Ethos of Version Control and Project Management 101\n\n\nPre-class work:\n\nYou know who is in your group\nYou have identified a project to work on together and created a repository for that\nYou checked if you have access to Fir\nYou have attended a code help session on 21st or 24th if you have ran into problems setting things up\n\n\n\n\n\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n10:00 - 10:05\nJupyterHub login\n\n\n\n10:05 - 10:15\nOnboarding\n\n\n\n10:15 - 10:30\ngit set up on Fir\n\n\n\n10:30 - 10:50\nVersion control - the idea\n\n\n\n10:50 - 11:00\nConnecting your local to your remote repository\n\n\n\n11:00 - 11:10\nBreak\n\n\n\n11:10 - 11:35\nAdding, committing and pushing\n\n\n\n11:35 - 11:40\nPull\n\n\n\n11:40 - 11:55\nQuick review and exercise\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nWednesday, November 26th, 2025\nVersion control 102 and working on the cloud\n\n\nPre-class work:\n\nWrite the documentation for your project (README and contribution guidelines)\nThink about what would be the structure of your project while you work on it and what it should look like when you archive it\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n15:00 - 15:10\nOnboarding\n\n\n\n15:10 - 15:25\nBranches\n\n\n\n15:25 - 15:40\nPull requests\n\n\n\n15:40 - 16:00\nMerging and conflicts\n\n\n\n16:00 - 16:05\nBreak\n\n\n\n16:05 - 16:50\nVersion control on Fir\n\n\n\n16:50 - 16:55\nQuiz time\n\n\n\n11:55 - 12:00\nWrap up and feedback\n\n\n\n\n\n\n\nFriday, November 28th, 2025\nFAIR principles, 100 Days of Version Control, Version Control Parade\n\n\nPre-class work:\n\nMake sure your local and remotes are in sync\nThink about what you will share with the cohort about your project and how your group have implemented a version control workflow\n\n\n\n\nProgress\nTime\nSubject\n\n\n\n\n\n13:00 - 13:10\nOnboarding\n\n\n\n13:10 - 13:30\nBest practices and FAIR principles\n\n\n\n13:30 - 14:00\nFinal practice\n\n\n\n14:00 - 14:30\nVersion Control Parade\n\n\n\n14:30 - 14:50\n100 days of version control challenge\n\n\n\n14:55 - 15:00\nWrap up and feedback\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   }
 ]
