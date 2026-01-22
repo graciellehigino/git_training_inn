@@ -40,19 +40,14 @@ You should have received an invite to contribute to this repository, so you'd ha
 
 You heard it right! There are prizes involved! Here's the complete breakdown of who gets what:
 
-| Challenge                                      | Prizes                              |
+| Challenge                                     | Prizes                              |
 |-----------------------------------------------|-------------------------------------|
-| Complete one tier of challenges               | Sticker + CAD$ 5 gift card          |
+| Complete one tier of challenges               | Sticker                             |
 | Funniest commit message                       | Sticker + CAD$ 5 gift card          |
-| Best README                                   | Sticker                             |
-| Best branch name                              | Sticker                             |
-| Most descriptive commit message               | Sticker                             |
-| 60 days                                       | Sticker + CAD$ 5 gift card          |
-| 90 days                                       | Sticker                             |
-| 100 days                                      | Sticker                             |
-| Completes at least two tiers of challenges    | Mug + CAD$ 10 gift card             |
-| Contributes to the project at least for 60 days | Mug + CAD$ 10 gift card           |
-| Find an easter egg                            | Mug + CAD$ 10 gift card             |
-| Most descriptive commit message               | Mug + CAD$ 15 gift card             |
-| Best README                                   | Mug + CAD$ 15 gift card             |
+| Best branch name                              | Sticker + CAD$ 5 gift card          |
+| Completes at least two tiers of challenges    | Mug + Sticker + CAD$ 10 gift card   |
+| Find an easter egg                            | Mug + Sticker + CAD$ 10 gift card   |
+| Contributes to a project for at least 60 days | Mug + Sticker + CAD$ 15 gift card   |
+| Most descriptive commit message               | Mug + Sticker + CAD$ 15 gift card   |
+| Best README                                   | Mug + Sticker + CAD$ 15 gift card   |
 | Completes all three tiers of challenges       | Mug + Sticker + CAD$ 25 gift card   |
